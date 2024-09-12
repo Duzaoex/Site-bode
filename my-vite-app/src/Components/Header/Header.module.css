@@ -1,0 +1,20 @@
+.header {
+    background-color: rgb(7, 173, 173);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.headerText {
+    background-color: rgb(125, 223, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.text {
+    text-align: end;
+}

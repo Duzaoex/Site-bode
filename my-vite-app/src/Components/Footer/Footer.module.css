@@ -1,0 +1,24 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e1e1f;
+    color: #7fd0f0;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding-bottom: 60px;
+  }
+  
