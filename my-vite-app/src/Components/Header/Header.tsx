@@ -3,7 +3,7 @@ function Header() {
     return (
         <header className={style.header}>
             <div className={style.headerText}>
-            <h1 className={style.text}>nome do site</h1>
+            <h1 className={style.text}>Bodão Personal</h1>
             </div>
         </header>
     );
