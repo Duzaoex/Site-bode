@@ -1,0 +1,99 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  margin-right: 20%;
+  margin-bottom: 50px;
+  background-image: linear-gradient(to bottom, #202e45, #000);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.intro {
+  padding-right: 10px;
+  margin-left: 150px;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.containerFoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-left: 80px;
+  font-size: 15px;
+  width: 800px;
+}
+
+.photo2 {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.h2 {
+  margin-bottom: 50px;
+  font-size: 2rem; /* Tamanho do texto ajustado */
+  position: relative;
+  color: #0084cc; /* Cor do h2 */
+  text-align: left;
+  padding: 20px 30px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 150px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  animation: glow 2s ease-in-out infinite alternate; /* Animação de brilho */
+}
+
+/* Efeito de animação leve de brilho */
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #0084cc, 0 0 20px #0084cc;
+  }
+  to {
+    box-shadow: 0 0 20px #0084cc, 0 0 40px #0084cc;
+  }
+}
+
+/* Aspas de abertura */
+.h2::before {
+  content: "“";
+  position: absolute;
+  left: -30px;
+  top: -30px;
+  font-size: 4rem;
+  color: #0084cc; /* Cor das aspas */
+  font-weight: bold;
+}
+
+/* Aspas de fechamento */
+.h2::after {
+  content: "”";
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+  font-size: 4rem;
+  color: #0084cc; /* Cor das aspas */
+  font-weight: bold;
+}
+
+.photo {
+  width: 800px;
+  height: auto;
+}
+
+.benefits {
+  flex: 1;
+  padding-left: 20px;
+}
+
+h2, h3 {
+  color: #ffffff; /* Cor do texto */
+}

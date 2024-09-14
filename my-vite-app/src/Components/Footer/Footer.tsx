@@ -1,11 +1,16 @@
-import style from './Footer.module.css';
+import styles from './Footer.module.css';
 
 function Footer() {
-    return (
-        <footer className={ style.footer }>
-            <p>© 2024 Eduardo Neris Carneiro. All rights reserved.</p>
-        </footer>
-    );
-};
+  return (
+    <footer className={styles.footer}>
+      <div>
+       <img src="/src/Helpers/logoretangulo.png" alt="André Castanho" className={styles.photo}/>     
+      </div>
+      <div>
+      <p>© 2024 André Castanho. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  );
+}
 
 export default Footer;
