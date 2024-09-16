@@ -4,6 +4,8 @@ import Section from './Components/Section/Section';
 import Testimonials from './Components/Testimonials/Testimonials';
 import Plans from './Components/Plans/Plans';
 import TrainerBio from './Components/TrainerBio/TrainerBio';
+import Advantages from './Components/Advantages/Advantages';
+import Faq from './Components/Faq/Faq';
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Section />
       <TrainerBio />
       <Testimonials />
+      <Advantages />
       <Plans />
+      <Faq />
       <Footer />
     </div>
   );

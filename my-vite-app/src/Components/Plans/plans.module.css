@@ -1,13 +1,98 @@
 .plans {
-    padding: 20px;
-    background-color: #272727;
-    color: #72b0e2;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f4f4f9;
+}
+
+.plan {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.plan h3 {
+  font-size: 1.5rem;
+  color: #0084CC;
+  margin-bottom: 20px;
+}
+
+.features {
+  margin-bottom: 20px;
+}
+
+.features h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.features ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.features li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.pricing {
+  text-align: center;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.pricing p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.pricing {
+  text-align: center;
+  margin-top: 20px; /* Adiciona espaçamento entre o conteúdo da .pricing e o botão */
+}
+
+.button {
+  background-color: #0084CC;
+  color: white;
+  width: 150px;
+  text-align: center;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin-left: 34%;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none; /* Remove o sublinhado */
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Adiciona espaçamento entre o conteúdo e o botão */
+}
+
+.button:hover {
+  background-color: #006699;
+}
+
+@media (max-width: 768px) {
+  .plans {
+    flex-direction: column;
+    gap: 40px;
   }
-  
-  .planCard {
-    border: 1px solid #000000;
-    padding: 15px;
-    border-radius: 10px;
-    margin: 10px 0;
+
+  .plan {
+    width: 100%;
   }
-  
+}

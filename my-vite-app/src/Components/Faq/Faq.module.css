@@ -1,0 +1,40 @@
+.faqSection {
+  padding: 20px;
+}
+
+.faqItem {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.answer {
+  margin-top: 10px;
+  white-space: pre-wrap; /* Mantém as quebras de linha e espaços do texto */
+  line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
+  color: #bfc0c0;
+}
+
+.ctaButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #bfc0c0;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.toggleButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}

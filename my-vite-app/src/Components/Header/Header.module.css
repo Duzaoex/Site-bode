@@ -7,6 +7,8 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Fundo preto transparente */
   color: white;
+  display: flex;
+  align-items: center;  
   padding: 10px 20px;
   z-index: 1000; /* Garante que o cabeçalho fique sobre a seção */
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
@@ -14,6 +16,18 @@
 
 .photo {
   height: 50px;
+}
+
+.h1 {
+  color: #0084CC;
+  font-size: 15px;
+}
+
+.photo2 {
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-left: 950px;
 }
 /* CSS para a Seção */
 .section {
@@ -34,4 +48,23 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #0084cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005f99;
 }
