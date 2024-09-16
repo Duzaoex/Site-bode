@@ -4,6 +4,7 @@
   background-color: #000000; /* Cor de fundo azul */
   border-top: solid 2px #0084CC;
   border-bottom: solid 2px #0084CC;
+  justify-items: center;
 }
 
 .intro {
