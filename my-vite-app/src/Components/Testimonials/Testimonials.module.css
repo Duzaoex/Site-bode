@@ -1,18 +1,36 @@
 .testimonials {
-    background-color: #121212;
-    color: #72b0e2;
-    padding: 40px;
-    text-align: center;
-  }
-  
-  .testimonial {
-    margin-bottom: 20px;
-  }
-  
-  .testimonial img {
-    width: 300px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    margin-right: 50px;
-  }
-  
+  background-color: #121212;
+  color: #72b0e2;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 30px; /* Aumentei o espaçamento entre os depoimentos */
+  padding: 20px; /* Adicionei um pouco de padding para separar o texto das bordas */
+  border-radius: 10px; /* Adicionei bordas arredondadas para um visual mais suave */
+  background-color: #1e1e1e; /* Fundo levemente mais claro para destacar o depoimento */
+}
+
+h2 {
+  font-size: 2.5rem; /* Aumentei o tamanho da fonte para o título */
+  font-weight: bold; /* Adicionei negrito ao título */
+  margin-bottom: 30px; /* Aumentei o espaçamento abaixo do título */
+}
+
+.testimonial img {
+  width: 300px;
+  border-radius: 20%;
+  margin-bottom: 15px; /* Aumentei o espaçamento abaixo das imagens */
+  margin-right: 20px; /* Reduzi o espaçamento à direita das imagens */
+  box-shadow: 0 0 10px 5px #0084CC; /* Mantive a sombra ao redor da imagem */
+}
+
+.testimonial p {
+  font-size: 1.25rem; /* Aumentei o tamanho da fonte dos depoimentos */
+  line-height: 1.6; /* Ajustei o espaçamento entre linhas para melhorar a legibilidade */
+  font-style: italic; /* Adicionei estilo itálico para um visual mais elegante */
+  max-width: 600px; /* Defini uma largura máxima para evitar que o texto se estenda muito em telas grandes */
+  margin: 0 auto; /* Centralizei o texto dentro do bloco */
+  padding: 0 20px; /* Adicionei padding horizontal para evitar que o texto fique muito próximo das bordas */
+}

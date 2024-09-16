@@ -2,13 +2,32 @@
   bottom: 0;
   width: 100%;
   background-color: #121212;
-  text-align: center;
   color: #7fd0f0;
-  height: 40px;
+  height: 60px;
   display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alinha os itens nas extremidades */
+  padding: 0 20px; /* Adiciona espaçamento nas laterais */
 }
 
-.foto {
-  margin-left: 200px;
-  margin-right: 100px;
+.imgContainer {
+  display: flex;
+  align-items: center;
+}
+
+.photo {
+  height: 40px; /* Ajuste a altura da imagem para combinar com o texto */
+  width: auto; /* Mantém a proporção da imagem */
+}
+
+.textContainer {
+  display: flex;
+  margin-left: -210px;
+  align-items: center;
+  justify-content: center; /* Centraliza o texto horizontalmente */
+  flex-grow: 1; /* Faz com que o container de texto ocupe o espaço restante */
+}
+
+.textContainer p {
+  margin: 0; /* Remove margens padrão do parágrafo */
 }

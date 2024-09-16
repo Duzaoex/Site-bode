@@ -1,0 +1,50 @@
+.advantages {
+  background-color: #121212;
+  color: #72b0e2;
+  padding: 40px;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 2.75rem; /* Aumentei o tamanho do título principal */
+  font-weight: bold; /* Manteve o negrito */
+  margin-bottom: 40px; /* Aumentei o espaçamento abaixo do título */
+  border-bottom: 2px solid #72b0e2; /* Adicionei uma linha abaixo do título */
+  display: inline-block; /* Alinhei a linha ao título */
+  padding-bottom: 10px; /* Adicionei padding inferior */
+}
+
+.advantage {
+  margin-bottom: 40px; /* Aumentei o espaçamento entre os blocos */
+  padding: 20px;
+  border-radius: 15px; /* Borde arredondadas mais suaves */
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra mais suave para destacar o bloco */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição */
+}
+
+.advantage:hover {
+  transform: translateY(-5px); /* Leve elevação ao passar o mouse */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4); /* Aumenta a sombra ao passar o mouse */
+}
+
+.icon {
+  font-size: 2rem; /* Aumentei o tamanho do ícone */
+  margin-bottom: 15px; /* Adicionei espaçamento abaixo dos ícones */
+}
+
+.h3 {
+  font-size: 1.75rem; /* Tamanho do subtítulo */
+  font-weight: bold; /* Negrito para os subtítulos */
+  margin-bottom: 10px; /* Espaçamento abaixo dos subtítulos */
+}
+
+.p {
+  font-size: 1.125rem; /* Tamanho da fonte ajustado */
+  line-height: 1.8; /* Aumentei o espaçamento entre linhas para uma leitura mais confortável */
+  font-style: normal; /* Removi o itálico para uma leitura mais formal */
+  text-align: justify;
+  max-width: 700px; /* Ajustei a largura máxima para um visual mais equilibrado */
+  margin: 0 auto; /* Centralizei o texto dentro do bloco */
+  padding: 0 20px; /* Padding horizontal */
+}

@@ -1,0 +1,41 @@
+.duvidasSection {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .intro {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 20px; /* Espaço entre os itens */
+    margin-bottom: 30px;
+  }
+  
+  .pergunta {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .pergunta:hover {
+    transform: scale(1.05);
+  }
+  
+  .finalMessage {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .gridContainer {
+      grid-template-columns: 1fr; /* Coloca em 1 coluna no mobile */
+    }
+  }
+  
