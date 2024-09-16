@@ -3,20 +3,32 @@
   color: #72b0e2;
   padding: 40px;
   text-align: center;
+  border-top: solid 2px #0084CC;
+  border-bottom: solid 2px #0084CC;
+}
+
+.container {
+  display: flex;
+flex-direction: row;
 }
 
 .h2 {
+  width: 100%;
   font-size: 2.75rem; /* Aumentei o tamanho do título principal */
   font-weight: bold; /* Manteve o negrito */
   margin-bottom: 40px; /* Aumentei o espaçamento abaixo do título */
   border-bottom: 2px solid #72b0e2; /* Adicionei uma linha abaixo do título */
   display: inline-block; /* Alinhei a linha ao título */
   padding-bottom: 10px; /* Adicionei padding inferior */
+  margin-bottom: 100px;
 }
 
 .advantage {
-  margin-bottom: 40px; /* Aumentei o espaçamento entre os blocos */
+  margin-bottom: 140px; /* Aumentei o espaçamento entre os blocos */
   padding: 20px;
+  width: 600px;
+  box-shadow: 0 0 10px 5px rgba(0, 132, 204, 0.5);
+  transition: transform 0.3s ease;
   border-radius: 15px; /* Borde arredondadas mais suaves */
   background-color: #1e1e1e;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra mais suave para destacar o bloco */
@@ -40,6 +52,7 @@
 }
 
 .p {
+  margin-bottom: 50px;
   font-size: 1.125rem; /* Tamanho da fonte ajustado */
   line-height: 1.8; /* Aumentei o espaçamento entre linhas para uma leitura mais confortável */
   font-style: normal; /* Removi o itálico para uma leitura mais formal */

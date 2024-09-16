@@ -6,15 +6,17 @@ import Plans from './Components/Plans/Plans';
 import TrainerBio from './Components/TrainerBio/TrainerBio';
 import Advantages from './Components/Advantages/Advantages';
 import Faq from './Components/Faq/Faq';
+import Duvidas from './Components/Duvidas/Duvidas';
 
 function App() {
   return (
     <div>
       <Header />
       <Section />
-      <TrainerBio />
-      <Testimonials />
+      <Duvidas />
       <Advantages />
+      <Testimonials />
+      <TrainerBio />
       <Plans />
       <Faq />
       <Footer />

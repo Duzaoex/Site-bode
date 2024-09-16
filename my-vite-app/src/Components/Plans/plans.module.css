@@ -4,6 +4,8 @@
   gap: 20px;
   padding: 40px;
   background-color: #f4f4f9;
+  border-top: solid 2px #0084CC;
+  border-bottom: solid 2px #0084CC;
 }
 
 .plan {

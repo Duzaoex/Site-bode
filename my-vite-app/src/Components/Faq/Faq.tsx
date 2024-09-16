@@ -2,10 +2,8 @@ import { useState } from 'react';
 import styles from './Faq.module.css';
 
 function Faq() {
-  // Estado para controlar quais perguntas estão abertas
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  // Função para alternar a abertura/fechamento da pergunta clicada
   const toggleFaq = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
@@ -71,7 +69,7 @@ function Faq() {
           {openIndex === index && <p className={styles.answer}>{faq.answer}</p>}
         </div>
       ))}
-      <a href="#contratar" className={styles.ctaButton}>
+      <a href="#plans" className={styles.ctaButton}>
         Não Tenho Mais Dúvidas! Bora!
       </a>
     </section>

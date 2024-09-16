@@ -4,6 +4,7 @@ function Advantages() {
   return (
     <section id="advantages" className={styles.advantages}>
       <h2 className={styles.h2}>Vantagens da Consultoria Online com André Castanho</h2>
+      <div className={styles.container}>
       <div className={styles.advantage}>
         <div className={styles.icon}>📱</div>
         <h3 className={styles.h3}>Plataforma Exclusiva de Treinamento</h3>
@@ -24,6 +25,7 @@ function Advantages() {
         <p className={styles.p}>
           Os treinos são estruturados para progredir de acordo com o seu objetivo específico. Realizamos avaliações online com perguntas direcionadas e um acompanhamento bimestral por meio de fotos, permitindo ajustar os planos conforme necessário e garantir seu progresso constante. Isso torna seu treinamento não apenas eficaz, mas também adaptável às suas necessidades ao longo do tempo.
         </p>
+      </div>
       </div>
     </section>
   );

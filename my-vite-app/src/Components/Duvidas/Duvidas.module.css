@@ -1,41 +1,73 @@
 .duvidasSection {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .intro {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  
+  padding: 20px;
+  text-align: center;
+  background-color: #000000; /* Cor de fundo azul */
+  border-top: solid 2px #0084CC;
+  border-bottom: solid 2px #0084CC;
+}
+
+.intro {
+  font-size: 1.2rem;
+  margin-bottom: 100px;
+  color: rgb(255, 255, 255); /* Cor do texto branca */
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 20px; /* Espaço entre os itens */
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255); /* Cor do texto das perguntas */
+  margin-bottom: 80px;
+  font-weight: bold;
+}
+
+.h2{
+  margin-bottom: 50px;
+  font-size: 60px;
+}
+
+.pergunta {
+  background-color: #ffc400;
+  padding: 15px;
+  border-radius: 8px;
+  color: #000000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.pergunta:hover {
+  transform: scale(1.05);
+}
+
+.finalMessage {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  line-height: 1.6;
+  color: aliceblue; /* Cor do texto branca */
+}
+
+.button {
+  text-align: center;
+  align-items: center;
+  background-color: #15ff00;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005f99;
+}
+
+@media (max-width: 768px) {
   .gridContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
-    gap: 20px; /* Espaço entre os itens */
-    margin-bottom: 30px;
+    grid-template-columns: 1fr; /* Coloca em 1 coluna no mobile */
   }
-  
-  .pergunta {
-    background-color: #f7f7f7;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .pergunta:hover {
-    transform: scale(1.05);
-  }
-  
-  .finalMessage {
-    font-size: 1.1rem;
-    margin-top: 20px;
-    line-height: 1.6;
-  }
-  
-  @media (max-width: 768px) {
-    .gridContainer {
-      grid-template-columns: 1fr; /* Coloca em 1 coluna no mobile */
-    }
-  }
-  
+}
