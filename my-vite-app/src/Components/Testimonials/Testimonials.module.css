@@ -70,3 +70,24 @@ h2 {
 .button:hover {
   background-color: #005f99;
 }
+
+
+@media (max-width: 768px) {
+  .testimonial {
+    flex-direction: column; /* Ajusta a direção do layout para dispositivos menores */
+    height: auto; /* Altura ajustável */
+  }
+  .testimonial img {
+    width: 100px;
+    border-radius: 20%;
+    margin: 10px;
+    box-shadow: 0 0 10px 5px #0084CC;
+  }
+  .p {
+    font-size: 0.75rem;
+    line-height: 1.6;
+    font-style: italic;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

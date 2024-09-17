@@ -61,3 +61,57 @@ flex-direction: row;
   margin: 0 auto; /* Centralizei o texto dentro do bloco */
   padding: 0 20px; /* Padding horizontal */
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Empilha os itens verticalmente em vez de lado a lado */
+    align-items: center; /* Centraliza os blocos de vantagem no eixo principal */
+    margin-left: 20px;
+  }
+
+  .advantage {
+    width: 90%; /* Ajusta a largura para caber melhor em telas menores */
+    margin-bottom: 30px; /* Adiciona espaçamento entre os blocos */
+  }
+
+  .h2 {
+    font-size: 2rem; /* Diminui o tamanho do título principal em dispositivos menores */
+  }
+
+  .h3 {
+    font-size: 1.5rem; /* Ajusta o tamanho dos subtítulos */
+  }
+
+  .p {
+    font-size: 1rem; /* Diminui o tamanho do texto das descrições */
+  }
+}
+
+@media (max-width: 480px) {
+  .advantages {
+    padding: 20px; /* Diminui o padding para dispositivos muito pequenos */
+  }
+
+  .advantage {
+    padding: 15px; /* Ajusta o padding interno dos blocos de vantagem */
+  }
+
+  .icon {
+    font-size: 1.5rem; /* Reduz o tamanho do ícone */
+    margin-bottom: 10px;
+  }
+
+  .h2 {
+    font-size: 1.75rem;
+    margin-bottom: 50px; /* Ajusta o espaçamento do título para caber melhor */
+  }
+
+  .h3 {
+    font-size: 1.25rem; /* Tamanho do subtítulo reduzido */
+  }
+
+  .p {
+    font-size: 0.9rem; /* Fonte menor para melhorar a legibilidade em telas pequenas */
+    line-height: 1.5;
+  }
+}

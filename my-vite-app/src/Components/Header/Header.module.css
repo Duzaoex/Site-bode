@@ -69,3 +69,22 @@ body {
 .button:hover {
   background-color: #005f99;
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Alinha itens verticalmente no mobile */
+    text-align: center;
+    height: 50px;
+  }
+  
+  .photo2 {
+    opacity: 0; /* Torna a imagem transparente */
+    visibility: hidden; /* Oculta a imagem, mas mantém o espaço */
+    height: 0; /* Remove a altura da imagem */    
+  }
+  
+  .h1 {
+    font-size: 14px;
+    color: transparent;
+  }
+}

@@ -72,3 +72,40 @@
     grid-template-columns: 1fr; /* Coloca em 1 coluna no mobile */
   }
 }
+
+@media (max-width: 480px) {
+  .duvidasSection {
+    padding: 10px;
+  }
+
+  .h2 {
+    font-size: 40px;
+  }
+
+  .intro {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .gridContainer {
+    grid-template-columns: 1fr; /* Uma única coluna para melhor exibição */
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  .pergunta {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .finalMessage {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-bottom: 50px;
+  }
+}

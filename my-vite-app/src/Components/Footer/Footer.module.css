@@ -31,3 +31,28 @@
 .textContainer p {
   margin: 0; /* Remove margens padrão do parágrafo */
 }
+
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column; /* Alinha a imagem e o texto verticalmente */
+    height: auto; /* Ajusta a altura automaticamente */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaçamento em volta do conteúdo */
+  }
+
+  .imgContainer {
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo da imagem */
+  }
+
+  .photo {
+    height: 30px; /* Ajusta a altura da imagem para telas pequenas */
+    margin-left: -20px;
+  }
+
+  .textContainer {
+    margin: 0; /* Remove margens adicionais */
+    text-align: center;
+    font-size: 10px;
+    margin-left: -20px;
+  }
+}

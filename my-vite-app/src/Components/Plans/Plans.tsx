@@ -5,7 +5,7 @@ function Plans() {
   return (
     <section id='plans' className={styles.plans}>
       <div className={styles.plan}>
-        <h3>Acompanhamento Trimestral (03 Meses)</h3>
+        <h3 className={styles.h3}>Acompanhamento Trimestral (03 Meses)</h3>
         <div className={styles.features}>
           <h4>Funcionalidades do App:</h4>
           <ul>
@@ -30,7 +30,7 @@ function Plans() {
       </div>
 
       <div className={styles.plan}>
-        <h3>Acompanhamento Semestral (06 Meses)</h3>
+        <h3 className={styles.h3}>Acompanhamento Semestral (06 Meses)</h3>
         <div className={styles.features}>
           <h4>Funcionalidades do App:</h4>
           <ul>
@@ -55,7 +55,7 @@ function Plans() {
       </div>
 
       <div className={styles.plan}>
-        <h3>Acompanhamento Anual (12 Meses)</h3>
+        <h3 className={styles.h3}>Acompanhamento Anual (12 Meses)</h3>
         <div className={styles.features}>
           <h4>Funcionalidades do App:</h4>
           <ul>

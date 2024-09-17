@@ -98,3 +98,31 @@
     width: 100%;
   }
 }
+
+
+
+@media (max-width: 480px) {
+  .plans {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .plan {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    margin-left: 0; /* Centraliza o botão em telas menores */
+    width: 50%; /* Ajusta o botão para ocupar toda a largura da div */
+    margin-left: 70px;
+  }
+
+  .h3{
+    text-align: center;
+  }
+
+  li {
+    text-align: justify;
+  }
+}

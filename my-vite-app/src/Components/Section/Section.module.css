@@ -118,3 +118,90 @@ h1 {
 .button:hover {
   background-color: #005f99;
 }
+
+@media (max-width: 480px) {
+  /* Ajusta a seção principal */
+  .section {
+    flex-direction: column; /* Empilhar os itens */
+    padding: 10px;
+    margin: 0; /* Remove as margens grandes */
+    box-shadow: none; /* Remove a sombra para um design mais limpo em mobile */
+  }
+
+  /* Ajusta a introdução */
+  .intro {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Espaçamento menor no topo */
+  }
+
+  /* Ajusta a logo */
+  .logo {
+    opacity: 0; /* Torna a imagem transparente */
+    visibility: hidden; /* Oculta a imagem, mas mantém o espaço */
+    height: 0; /* Remove a altura da imagem */
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .photo2 {
+    width: 300px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+
+  /* Ajusta o texto */
+  .text {
+    font-size: 14px;
+    width: 100%; /* Faz o texto ocupar toda a largura disponível */
+  }
+
+  /* Título H1 */
+  h1 {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 100%; /* Ajusta para 100% da largura no mobile */
+  }
+
+  /* Título H2 */
+  .h2 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 10px;
+  }
+
+  /* Aspas estilizadas */
+  .h2::before {
+    font-size: 40px; /* Reduz o tamanho das aspas */
+    left: -15px; /* Ajusta a posição */
+    right: 10px;
+    top: -45px;
+    bottom: -10px;
+  }
+
+  .h2::after {
+    font-size: 40px; /* Reduz o tamanho das aspas */
+    left: 375px; /* Ajusta a posição */
+    right: 10px;
+    top: 135px;
+    bottom: -10px;
+  }
+
+  /* Ajusta a imagem de perfil */
+  .photo {
+    margin-top: 115px;
+    width: 90%; /* Reduz a largura da imagem */
+    margin: 20px auto; /* Centraliza a imagem */
+  }
+
+  /* Ajusta o container de foto */
+  .containerFoto {
+    margin: 0;
+    text-align: center;
+  }
+
+
+}
