@@ -12,7 +12,7 @@ function Faq() {
     {
       question: "+ O curso é adequado para iniciantes?",
       answer:
-        "Sim, o  André Castanho projetou para atender tanto iniciantesb quanto pessoas mais experientes. Todas as aulas são estruturadas de forma a serem compreensíveis e práticas para todos os níveis de condicionamento físico."
+        "Sim, o  André Castanho projetou para atender tanto iniciantes quanto pessoas mais experientes. Todas as aulas são estruturadas de forma a serem compreensíveis e práticas para todos os níveis de condicionamento físico."
     },
     {
       question: "+ Quanto tempo devo dedicar ao treino diariamente?",
