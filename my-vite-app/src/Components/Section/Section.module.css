@@ -1,189 +1,129 @@
 .section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  color: white;
-  margin-right: 20%;
-  margin-bottom: 50px;
-  margin-left: -200px;
-  background-image: linear-gradient(to bottom, #202e45, #000);
+  color: rgb(255, 255, 255);
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  background-image: linear-gradient(to bottom, rgb(32, 46, 69), rgb(0, 0, 0));
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
-  margin-top: 30px;
+  width: 100%;
+  padding: 2%;
+  box-sizing: border-box; /* Inclui padding no cálculo da largura */
+  position: relative; /* Permite o uso de posicionamento absoluto dentro da seção */
 }
 
 .intro {
-  padding-right: 10px;
-  margin-left: 300px;
-  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 5%; /* Ajusta o espaçamento abaixo do intro */
+  margin-left: -7%;
 }
 
 .logo {
-  margin-bottom: 120px;
-  margin-left: 250px;
+  margin-top: 7%;
+  margin-bottom: 3%; /* Ajusta o espaçamento abaixo do logo */
 }
 
-.containerFoto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.photo2 {
+  width: 30%; /* Ajusta a largura da imagem */
+  height: auto;
+  margin-left: -30%;
+  margin-bottom: 3%;
+  margin-top: 1%;
 }
 
 .text {
-  font-size: 15px;
-  color: #ffffff;
-  width: 850px;
+  font-size: 1vw; /* Ajusta a fonte em função da largura da tela */
+  color: rgb(255, 255, 255);
+  margin-bottom: 15%; /* Ajusta o espaçamento abaixo do texto */
+  margin-right: 35%; /* Ajusta o espaçamento à direita para liberar espaço para a imagem */
+  margin-left: 5%;
+}
+
+.h1 {
+  font-size: 2vw; /* Ajusta o tamanho da fonte do título */
+  margin-bottom: 5%;
 }
 
 .h2 {
-  font-size: 18px;
-  margin-bottom: 50px;
-  position: relative;
+  font-size: 1vw; /* Ajusta o tamanho da fonte do subtítulo */
   text-align: justify;
-  color: #ffffff;
-  line-height: 3;
-}
-
-.h2::before {
-  content: '“';
-  font-size: 70px;
-  position: absolute;
-  left: -80px;
-  top: -170px;
-  color: #0084CC;
-}
-
-.h2::after {
-  content: '”';
-  font-size: 70px;
-  position: absolute;
-  right: -210px;
-  bottom: -110px;
-  color: #0084CC;
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  width: 80%; /* Ajusta a largura do texto */
+  margin: 0 auto; /* Centraliza o texto */
 }
 
 .photo {
-  width: 700px;
+  width: 40%; /* Ajusta a largura da imagem */
   height: auto;
-  margin-top: 100px;
-  margin-left: 100px;
+  position: absolute; /* Posiciona a imagem em relação ao contêiner mais próximo com position relative */
+  right: 2%; /* Alinha a imagem à direita do contêiner */
+  top: 42%; /* Alinha verticalmente no meio do contêiner */
+  transform: translateY(-50%); /* Centraliza verticalmente com base no top */
 }
 
 .benefits {
-  flex: 4;
-  padding-left: 20px;
+  padding-left: 5%;
 }
 
 h1, h2, h3 {
-  color: #ffffff;
-}
-
-h1 {
-  font-size: 40px;
-  width: 1200px;
-}
-
-.buttonContainer {
-  margin-top: 20px;
-  width: 100%;
-  margin-left: 280px;
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-}
-
-.button {
-  text-align: center;
-  align-items: center;
-  background-color: #0084cc;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #005f99;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 480px) {
   .section {
-    flex-direction: column;
-    padding: 10px;
-    margin: 0;
-    box-shadow: none;
+    width: 100%; /* Mantém a largura da seção em 80% */
+    margin: 0 auto; /* Centraliza a seção */
   }
 
   .intro {
-    margin: 0;
-    padding: 0;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20%; 
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
   }
 
   .logo {
-    opacity: 0;
-    visibility: hidden; 
-    height: 0;
-    margin: 0;
-    text-align: center;
-    margin-bottom: 20px;
+    display: none; /* Esconde o logo em telas pequenas */
   }
 
   .photo2 {
-    width: 300px;
-    margin-top: 90px;
-    margin-bottom: 50px;
-  }
-
-  .text {
-    font-size: 14px;
-    width: 100%;
-  }
-
-  h1 {
-    font-size: 24px;
-    margin-top: 100px;
-    margin-bottom: 60px;
-    width: 100%;
-  }
-
-  .h2 {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0 10px;
-  }
-
-  .h2::before {
-    font-size: 40px;
-    left: -15px;
-    right: 10px;
-    top: -45px;
-    bottom: -10px;
-  }
-
-  .h2::after {
-    font-size: 40px;
-    left: 375px;
-    right: 10px;
-    top: 135px;
-    bottom: -10px;
+    display: none; /* Esconde a imagem do logo em telas pequenas */
   }
 
   .photo {
-    margin-top: 115px;
+    width: 100%; /* Ajusta a largura da imagem para ocupar toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 40%; /* Espaço acima da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+    position: static; /* Remove o posicionamento absoluto */
+    margin-left: -10%;
+  }
+
+  .text {
+    width: 100%; 
+    margin: 20px auto; 
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .h1 {
+    font-size: 5vw; 
+    margin-top: 20%; /* Ajusta o espaçamento acima do título */
     width: 90%;
-    margin: 20px auto;
+    margin-left: 9%;
+    margin-bottom: 10%;
+  }
+
+  .h2 {
+    line-height: 3; 
+    text-align: justify; 
+    font-size: 3vw;
+    margin-left: 18.5%;
+    width: 70%; /* Permite que o texto ocupe toda a largura disponível */
   }
 
   .containerFoto {
-    margin: 0;
-    text-align: center;
+    text-align: center; 
+    margin-top: 20px; /* Adiciona espaço acima da foto */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da foto */
   }
-
-
 }

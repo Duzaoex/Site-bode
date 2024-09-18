@@ -25,19 +25,14 @@ function Faq() {
         "Não é necessário ter equipamentos específicos para começar. No entanto, para obter melhores resultados, é recomendado ter acesso a pesos livres e alguns equipamentos básicos de academia."
     },
     {
-      question: "+ Como funciona a garantia de 7 dias?",
-      answer:
-        "Oferecemos uma garantia de satisfação de 7 dias. Se, por qualquer motivo, você não estiver satisfeito com o curso, pode solicitar o reembolso total dentro desse período."
-    },
-    {
-      question: "+ Para quem o Plano Muzy é indicado?",
+      question: "+ Para quem é indicado a Consultoria Online?",
       answer:
         "O  André Castanho indica para qualquer pessoa que deseja melhorar sua saúde e desempenho físico, seja você um iniciante ou um atleta avançado."
     },
     {
       question: "+ Após realizar a compra, o que eu vou receber?",
       answer:
-        "Após a compra, você receberá acesso imediato à plataforma do curso, onde poderá acessar todas as videoaulas, planos de treino, orientações nutricionais e muito mais."
+        "Após a compra, você receberá acesso imediato à plataforma do curso, onde poderá acessar todas as videoaulas, planos de treino, orientações e muito mais."
     },
     {
       question: "+ Eu já treino na academia. Os programas servem para mim?",
@@ -47,11 +42,11 @@ function Faq() {
     {
       question: "+ Quanto tempo eu tenho acesso ao aplicativo?",
       answer:
-        "Você terá acesso ao aplicativo e a todo o conteúdo do curso por um período de 12 meses, com atualizações regulares."
+        "Você terá acesso ao aplicativo e a todo o conteúdo do curso por um período do plano contratado, com atualizações de acordo com seu plano."
     },
     {
       question: "+ Quais as formas de pagamento?",
-      answer: "Cartão de crédito em até 12x ou Pix à vista."
+      answer: "Cartão de crédito ou Pix à vista."
     }
   ];
 

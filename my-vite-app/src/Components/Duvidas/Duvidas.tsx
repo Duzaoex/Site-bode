@@ -14,7 +14,7 @@ function Duvidas() {
     "Como vou saber quais treinos são adequados para o meu nível?",
     "E se eu tiver dúvidas sobre os treinos?",
     "Posso conseguir resultados apenas treinando sozinho?",
-    "Vou precisar de equipamentos especiais?",
+    "É necessário ter experiência prévia em treinamento?",
     "Como posso manter minha motivação durante o programa?",
     "O que fazer se eu não estiver vendo resultados?"
   ];
@@ -34,7 +34,8 @@ function Duvidas() {
           ))}
         </div>
         <p className={styles.finalMessage}>
-          O Programa André Castanho foi criado para responder a todas essas dúvidas e oferecer um caminho claro e eficiente para transformar não apenas seu corpo, mas também sua vida. 🌈
+         A Consultoria Online foi criada para responder a todas essas dúvidas e oferecer
+          um caminho claro e eficiente para transformar não apenas seu corpo, mas também sua vida. 
         </p>
         <p className={styles.finalMessage}>
           Utilizando os conhecimentos e práticas desenvolvidos ao longo de mais de 10 anos de experiência, André e sua equipe te ensinarão a otimizar seus treinos, alimentação e hábitos, garantindo resultados notáveis e duradouros! 💪✨ Prepare-se para a sua transformação! 🚀
