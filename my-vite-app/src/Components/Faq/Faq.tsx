@@ -10,7 +10,7 @@ function Faq() {
 
   const faqs = [
     {
-      question: "+ O curso é adequado para iniciantes?",
+      question: "+ A consultoria é adequado para iniciantes?",
       answer:
         "Sim, a consultoria online foi projetada para atender tanto iniciantes quanto pessoas mais experientes. Todas as aulas são estruturadas de forma a serem compreensíveis e práticas para todos os níveis de condicionamento físico."
     },
