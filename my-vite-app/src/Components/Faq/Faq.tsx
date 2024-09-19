@@ -15,11 +15,6 @@ function Faq() {
         "Sim, o  André Castanho projetou para atender tanto iniciantes quanto pessoas mais experientes. Todas as aulas são estruturadas de forma a serem compreensíveis e práticas para todos os níveis de condicionamento físico."
     },
     {
-      question: "+ Quanto tempo devo dedicar ao treino diariamente?",
-      answer:
-        "Não é necessário ter equipamentos específicos para começar. No entanto, para obter melhores resultados, é recomendado ter acesso a pesos livres e alguns equipamentos básicos de academia."
-    },
-    {
       question: "+ Preciso de equipamentos específicos?",
       answer:
         "Não é necessário ter equipamentos específicos para começar. No entanto, para obter melhores resultados, é recomendado ter acesso a pesos livres e alguns equipamentos básicos de academia."

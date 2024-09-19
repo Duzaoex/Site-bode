@@ -77,7 +77,7 @@ h2 {
     height: auto; /* Altura ajustável */
   }
   .testimonial img {
-    width: 100px;
+    width: 200px;
     border-radius: 20%;
     margin: 10px;
     box-shadow: 0 0 10px 5px rgb(0, 132, 204);
