@@ -39,7 +39,7 @@ function Duvidas() {
         </p>
         <p className={styles.finalMessage}>
           Utilizando os conhecimentos e práticas desenvolvidos ao longo de mais de 10 anos de experiência,
-           André e André vai potencializar seus treinos, alimentação e hábitos,
+           André vai potencializar seus treinos, alimentação e hábitos,
             garantindo resultados notáveis e duradouros!
         </p>
       </div>
