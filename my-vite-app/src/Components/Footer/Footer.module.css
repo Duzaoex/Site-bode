@@ -24,6 +24,7 @@
   display: flex;
   margin-left: -210px;
   align-items: center;
+  flex-direction: column;
   justify-content: center; /* Centraliza o texto horizontalmente */
   flex-grow: 1; /* Faz com que o container de texto ocupe o espaço restante */
 }
