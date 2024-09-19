@@ -12,7 +12,7 @@ function Faq() {
     {
       question: "+ O curso é adequado para iniciantes?",
       answer:
-        "Sim, o  André Castanho projetou para atender tanto iniciantes quanto pessoas mais experientes. Todas as aulas são estruturadas de forma a serem compreensíveis e práticas para todos os níveis de condicionamento físico."
+        "Sim, a consultoria online foi projetada para atender tanto iniciantes quanto pessoas mais experientes. Todas as aulas são estruturadas de forma a serem compreensíveis e práticas para todos os níveis de condicionamento físico."
     },
     {
       question: "+ Preciso de equipamentos específicos?",
@@ -22,17 +22,17 @@ function Faq() {
     {
       question: "+ Para quem é indicado a Consultoria Online?",
       answer:
-        "O  André Castanho indica para qualquer pessoa que deseja melhorar sua saúde e desempenho físico, seja você um iniciante ou um atleta avançado."
+        "O  a consultoria online é indicada para qualquer pessoa que deseja melhorar sua saúde e desempenho físico, seja você um iniciante ou um atleta avançado."
     },
     {
       question: "+ Após realizar a compra, o que eu vou receber?",
       answer:
-        "Após a compra, você receberá acesso imediato à plataforma do curso, onde poderá acessar todas as videoaulas, planos de treino, orientações e muito mais."
+        "Após a compra, você receberá acesso imediato à plataforma do aplicativo, onde terá acesso aos planos de treino, orientações e muito mais."
     },
     {
       question: "+ Eu já treino na academia. Os programas servem para mim?",
       answer:
-        "Sim,  André Castanho projetou para complementar e otimizar seu treino atual, oferecendo técnicas e estratégias avançadas para maximizar seus resultados."
+        "Sim, a consultoria online foi projetada para complementar e otimizar seu treino atual, oferecendo técnicas e estratégias avançadas para maximizar seus resultados."
     },
     {
       question: "+ Quanto tempo eu tenho acesso ao aplicativo?",

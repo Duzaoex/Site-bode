@@ -38,7 +38,9 @@ function Duvidas() {
           um caminho claro e eficiente para transformar não apenas seu corpo, mas também sua vida. 
         </p>
         <p className={styles.finalMessage}>
-          Utilizando os conhecimentos e práticas desenvolvidos ao longo de mais de 10 anos de experiência, André e sua equipe te ensinarão a otimizar seus treinos, alimentação e hábitos, garantindo resultados notáveis e duradouros! 💪✨ Prepare-se para a sua transformação! 🚀
+          Utilizando os conhecimentos e práticas desenvolvidos ao longo de mais de 10 anos de experiência,
+           André e André vai potencializar seus treinos, alimentação e hábitos,
+            garantindo resultados notáveis e duradouros!
         </p>
       </div>
       <button className={styles.button} onClick={scrollToPlans}>Veja Nossos Planos</button>
