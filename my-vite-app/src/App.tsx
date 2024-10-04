@@ -7,6 +7,7 @@ import TrainerBio from './Components/TrainerBio/TrainerBio';
 import Advantages from './Components/Advantages/Advantages';
 import Faq from './Components/Faq/Faq';
 import Duvidas from './Components/Duvidas/Duvidas';
+import VideoSection from './Components/Video/Video';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Section />
       <Duvidas />
       <Advantages />
+      <VideoSection />
       <Testimonials />
       <TrainerBio />
       <Plans />
